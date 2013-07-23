@@ -20,6 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Add the split view controller's view to the window and display.
+    [window setRootViewController:splitViewController];
+    
     [window addSubview:splitViewController.view];
     [window makeKeyAndVisible];
 	

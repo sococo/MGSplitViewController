@@ -27,7 +27,6 @@
     self.contentSizeForViewInPopover = CGSizeMake(320.0, 600.0);
 }
 
-
 // Ensure that the view controller supports rotation and that the split view can therefore show in both portrait and landscape.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return YES;
